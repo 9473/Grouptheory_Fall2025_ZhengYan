@@ -17,6 +17,7 @@ One well-known self-conjugate subgroup of $S_4$ is the **Klein four-group** $V_4
 $$
 V_4 = \{ e, (12)(34), (13)(24), (14)(23) \}
 $$
+
 you can check if $V_4$ satisfies $gV_4g^{-1} = V_4$, i.e.,  check if $g \cdot h \cdot g^{-1} \in V_4$ for every $h \in V_4$ and for every $g \in S_4$.
 
 For example,
@@ -91,6 +92,7 @@ Consider $e,12,13,23,123,132$,  it reminds us $S_4/V_4$ is isomorphic to $S_3$. 
 ### 3. Multiplication table
 
 For example: $C_5 \cdot C_5 = (132)(132)V_4 = (123)V_4$.
+
 $$
 \begin{array}{c|cccccc}
  & C_0 & C_1 & C_2 & C_3 & C_4 & C_5 \\
