@@ -41,7 +41,7 @@ These are well known:
 
 1. **Trivial representation** $\mathbf{1}$: every group element acts as $+1$.
 2. **Sign representation** $\mathbf{1}'$: even permutations act as $+1$, odd permutations (transpositions) as $-1$.
-3. **Standard (2-dimensional) representation** $ \mathbf{2} $: obtained by the natural action of $S_3$ on the subspace $\{(x_1,x_2,x_3) \in \mathbb{C}^3 : x_1 + x_2 + x_3 = 0\}$, which is 2-dimensional.
+3. **Standard (2-dimensional) representation** $\mathbf{2}$: obtained by the natural action of $S_3$ on the subspace $\{(x_1,x_2,x_3) \in \mathbb{C}^3 : x_1 + x_2 + x_3 = 0\}$, which is 2-dimensional.
 
 The 2D rep $\mathbf{2}$ (dim = 2) appears **twice** (since its multiplicity equals its dimension).
 
@@ -52,5 +52,25 @@ $$
 $$
 
 So, this accounts for total dimension: $1 + 1 + 2 + 2 = 6$, as required.
+
+The character $\chi_{\text{reg}}$ of the regular representation is:
+
+$$
+\chi_{\text{reg}}(g) = 
+\begin{cases}
+|G| = 6, & \text{if } g = e, \\
+0, & \text{if } g \ne e.
+\end{cases}
+$$
+
+Now compute the character of the proposed decomposition:
+
+| Class          | Size | $\chi_{\mathbf{1}}$ | $\chi_{\mathbf{1}'}$ | $\chi_{\mathbf{2}}$ | Total $\chi$        |
+| -------------- | ---- | --------------------- | ---------------------- | --------------------- | --------------------- |
+| e         | 1    | 1                     | 1                      | 2                     | 1 + 1 + 2 + 2 = 6 |
+| transpositions | 3    | 1                     | -1                     | 0                     | 1 -1 + 0 + 0 = 0  |
+| 3-cycles       | 2    | 1                     | 1                      | -1                    | 1 + 1 -1 -1 = 0   |
+
+
 
 
